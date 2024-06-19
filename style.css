@@ -21,6 +21,7 @@ h1{
 }*/
 fieldset{
     border: 0;
+    display: inline-block;
 }
 body{
     background-color: white;
