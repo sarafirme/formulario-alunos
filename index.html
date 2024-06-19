@@ -22,6 +22,7 @@
     <form>
         
         <fieldset class="grupo">
+
             <div class="campo">
                   <!-- Campo do nome com legenda "nome" e css de classe "campo" -->
 
@@ -44,7 +45,8 @@
          </fieldset>
 
          <!-- Email e senha -->
-         <fieldset class="campo">
+         <fieldset class="grupo">
+
             <div class="campo">
                 <label for="email"> <strong>Email</strong></label>
                 <input type="email" name="email" id="email" required>
@@ -60,9 +62,9 @@
             <!-- Data de Nascimento e curso -->
          <div class="campo">
             <div class="campo">
-                <label for="nasc"><strong>Data de Nascimento</strong></label> <br>
+                <label for="nasc"><strong>Data de Nascimento</strong></label>
                 <input type="date" name="nasc" id="nasc" required>
-            </div>
+            </div> <br>
             <label><strong>Curso</strong></label> <br>
             <label>
                 <input type="radio" name="curso" value="frond-end"> Front-end
@@ -74,10 +76,10 @@
                 <input type="radio" name="curso" value="full-stack"> Full-stack
             </label>
 
-         </div>
+         </div>  <br>
 
          <!-- Turno -->
-         <div>
+         <div class="campo">
             <label><strong>Turno</strong></label> <br>
             <select>
                 <option selected disabled>Selecione</option>
@@ -85,7 +87,8 @@
                 <option>Tarde</option>
                 <option>Noite</option>
             </select>
-         </div>
+         </div> <br>
+
 
         <fieldset class="grupo">
             <div id="check">
@@ -103,6 +106,7 @@
 
                 <label for="tecnologia1">JavaScript</label>
              </div>
+
         </fieldset>  <br>
                     <!-- Caixa de texto -->
        
@@ -115,7 +119,7 @@
      
 
             <!-- Botão -->
-        <button type="submit" onsubmit="">Cadastrar</button>
+        <button type="submit" onsubmit="" class="botao">Cadastrar</button>
     </form>
     
 </body>
